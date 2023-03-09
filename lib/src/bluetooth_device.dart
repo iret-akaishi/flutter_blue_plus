@@ -27,6 +27,9 @@ class BluetoothDevice {
       BehaviorSubject.seeded(false);
   Stream<bool> get isDiscoveringServices => _isDiscoveringServices.stream;
 
+
+  get int SampleValue => 2929;
+
   /// Establishes a connection to the Bluetooth Device.
   Future<void> connect({
     Duration? timeout,
