@@ -28,7 +28,7 @@ class BluetoothDevice {
   Stream<bool> get isDiscoveringServices => _isDiscoveringServices.stream;
 
 
-  get int SampleValue => 2929;
+  int get SampleValue => 2929;
 
   /// Establishes a connection to the Bluetooth Device.
   Future<void> connect({
